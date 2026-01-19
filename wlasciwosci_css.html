@@ -1,71 +1,85 @@
 <!DOCTYPE html>
 
 <html lang="pl-PL">
-<head>
-	<title> Właśiwości CSS </title>
 	<meta charset="UTF-8"/>
-	<style type="text/css">
-		p {font-family:"Courier New";
-			font-style:italic;
-			font-weight: 500;
-			font-size: 20px;
-			}
-		blockquote {
-				font-family:fantasy;
-				font-style:teal;
-				font-weight:500;
-				font-size:20px;
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	
+<head>
+
+<style>
+	p { font-family:"Courier new";
+		color:maroon;
+		font-size:20px;
+		font-style:italic;
+		font-weight:500;
+		}
+		
+	blockquote { font-family:fantasy;
+				font-style:italic;
+				font-style:bold;
 				color:teal;
-			}
-		em  		{
-				font-family:arial
-				
-	</style></head>
-<body bgcolor="gray">
-	<div style="float:left; background-color:white; width:20%; height:1100px; ">
-		<hr />
-		<h3> <center> MENU PORUSZANIA </h3> </center>
-		<hr />
-			<a href="index.html"> <center> STRONA GŁÓWNA </center> </a> <br />
-			<a href="kolory.html"> <center> KOLORY </center> </a> <br />
-			<a href="nauczyciele.html"> <center> NAUCZYCIELE </center> </a> <br />
-			<a href="zdjecia.html"> <center> ZDJĘCIA </center> </a> <br />
-			<a href="swadzba_tabele.html"> <center> TABELA </center> </a> <br />
-			<a href="swadzba_tabela.html"> <center> TABELA NA OCENE </center> </a> <br />
-			<a href="swadzba_listy.html"> <center> LISTY </center> </a> <br />
-			<a href="swadzba_lista.html"> <center> LISTY NA OCENE </center> </a> <br />
-			<a href="swadzba_formularz.html"> <center> FORMULARZE </center> </a> <br />
-			<a href="mapy_odsyłaczy.html"> <center> MAPY ODSYŁACZY </center> </a> <br />
-		<br />
-		<hr />
-		<h3> <center> STREFA JĘZYKA "CSS" </h3> </center>
-		<br />
-		<hr />
-		<h3> <center> STREFA MULTIMEDIALNA </h3> </center>
-			<a href="audio_video.html"> <center> AUDIO & VIDEO </center> </a> <br />
-		<hr />
-		<br />
-		<h3> <center> STREFA DOKUMENTÓW </h3> </center>
-			<a href="doc/lista.docx"> <center> WORD - LISTA GRUPY </center> </a> <br />
-			<a href="doc/lista.xlsx"> <center> EXCEL - LISTA GRUPY </center> </a> <br />
-		<hr />
-		<br />
-		<h3> <center> STREFA LINKÓW </h3> </center>
-		<a href="https://www.google.com" target="new">
-			<img src="foty/google_logo.png" width="100px" /></a>
-		<a href="https://www.tsi-pai.cba.pl" target="new">
-			<img src="foty/informatyk_logo.png" width="100px" /></a>
-	</div>
-	<div style="float:right; width:70%;">
-			<p>  STRONA GŁÓWNA - Projektowanie Stron Internetowych 
-		 TUTAJ POJAWI SIE TREŚĆ STRONY </p> 
-	</div>
-		<div style="background-color:grey; clear:both;"><center>&copy; B.G. OCTOBER 2025</center>
-	</div>
-	</body>
+				font-variant:small-caps;
+				}
+		
+	EM {font-family:verdana;
+		font-size:35px;
+		font-style:italic;
+		font-weight:600;
+		color:red;
+ </style>
 
-	</html>
+</head>
 
+<body>
+	<div style="background-color:gray;">
+		<h1> PROJEKTOWANIE STRON INTERNETOWYCH </h1>
+	</div>
+	<div style="float:left;width:20%; height: 850px; background-color:aqua;">
+		<h3> HTML </h3>
+			<a href="index.html">STRONA GŁÓWNA</a> <br />
+			<a href="kolory.html">KOLORY</a> <br />
+			<a href="nauczyciele.html">NAUCZYCIELE</a> <br />
+			<a href="zdjecia.html">ZDJĘCIA</a> <br />
+			<a href="tabele.html">TABELA</a> <br />
+			<a href="swadzba_tabela.html">TABELA NA OCENĘ</a> <br />
+			<a href="swadzba_listy.html">LISTY</a> <br />
+			<a href="swadzba_lista.html">LISTY NA OCENĘ</a> <br />
+			<a href="mapy_odsylaczy.html">MAPY ODSYŁACZY</a> <br />
+			<a href="formularz.html">FORMULARZ</a> <br />
+			<a href="zdarzenia.html">ZDARZENIA</a> <br />
+
+
+		<h3> MULTI </h3>
+			<a href="muzyka.html"> AUDIO I VIDEO </a><br/>
+		<h3> DOKUMENTY </h3>
+			<a href="doc/word.docx"> WORD </a><br/>
+			<a href="doc/exel.xlsx"> EXEL </a><br/>
+		<h3> LINKI </h3>
+			<a href="http://google.com" target="new"/><img src="obrazy/google.png" width=100px"></a>
+	</div>
+	<div style="float:right; width:80%">
+		 <h3>zadanie I - CZCIONKA: </h3>
+
+		<p>Formatowanie akapitu p: krój czcionki – Courier New, styl – pochylenie,
+			grubość – 500, rozmiar – 20 px, kolor - maroon </p>
+
+ 
+		<h3>zadanie Ia - CZCIONKA:</h3>
+
+		<blockquote>Formatowanie blockquote: krój czcionki – fantasy, styl – pochylenie,
+    grubość – bolder, rozmiar – 30px, typ czcionki - kapitaliki, kolor - teal </blockquote>
+
+ 
+		<h3>zadanie Ib - CZCIONKA:</h3>
+		<em>Formatowanie EM: krój czcionki - verdana, styl - pochylenie, grubość - 600, rozmiar - 35px, color - red </em>
+		
+	</div>
+	<div style="background-color:gray; clear:both;"><center> &copy; O.R. Październik 2025
+	</center></div>
+
+</body>
+
+</html>
 
 
 
