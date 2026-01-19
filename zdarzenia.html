@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="pl-PL">
+<head> 
+	<title> ZDARZENIA </title>
+	<meta charset="UTF-8"/>
+</head>
+<body bgcolor="gray">
+	<div style="float:left; background-color:white; width:20%; height:1100px; ">
+		<hr />
+		<h3> <center> MENU PORUSZANIA </h3> </center>
+		<hr />
+			<a href="index.html"> <center> STRONA GŁÓWNA </center> </a> <br />
+			<a href="kolory.html"> <center> KOLORY </center> </a> <br />
+			<a href="nauczyciele.html"> <center> NAUCZYCIELE </center> </a> <br />
+			<a href="zdjecia.html"> <center> ZDJĘCIA </center> </a> <br />
+			<a href="swadzba_tabele.html"> <center> TABELA </center> </a> <br />
+			<a href="swadzba_tabela.html"> <center> TABELA NA OCENE </center> </a> <br />
+			<a href="swadzba_listy.html"> <center> LISTY </center> </a> <br />
+			<a href="swadzba_lista.html"> <center> LISTY NA OCENE </center> </a> <br />
+			<a href="swadzba_formularz.html"> <center> FORMULARZE </center> </a> <br />
+			<a href="mapy_odsyłaczy.html"> <center> MAPY ODSYŁACZY </center> </a> <br />
+
+		<br />
+		<hr />
+		<h3> <center> STREFA JĘZYKA "CSS" </h3> </center>
+		<br />
+		<hr />
+		<h3> <center> STREFA MULTIMEDIALNA </h3> </center>
+			<a href="audio_video.html"> <center> AUDIO & VIDEO </center> </a> <br />
+		<hr />
+		<br />
+		<h3> <center> STREFA DOKUMENTÓW </h3> </center>
+			<a href="doc/lista.docx"> <center> WORD - LISTA GRUPY </center> </a> <br />
+			<a href="doc/lista.xlsx"> <center> EXCEL - LISTA GRUPY </center> </a> <br />
+		<hr />
+		<br />
+		<h3> <center> STREFA LINKÓW </h3> </center>
+		<a href="https://www.google.com" target="new">
+			<img src="foty/google_logo.png" width="100px" /></a>
+		<a href="https://www.tsi-pai.cba.pl" target="new">
+			<img src="foty/informatyk_logo.png" width="100px" /></a>
+	</div>
+	<div style="float:right; width:70%;">
+	<h2>Zdarzenie onfocus oraz onblur</h2>
+<br />
+	<p>Po "wejściu" do pola input, funkcja ustawia kolor tła na żółty. </p>
+	<p>Po opuszczeniu pola input, funkcja ustawia kolor tła na czerwony. </p>
+<br />
+	Wpisz swoje imie i nazwisko:
+	<input type="text" id="myInput" onfocus="focusFunction()" onblur="blurFunction()">
+<script>
+function focusFunction() {
+	document.getElementById("myInput").style.background = "yellow";
+}
+function blurFunction() {
+	document.getElementById("myInput").style.background = "red";
+}
+</script>
+<br />
+<hr />
+<br />
+
+	</div>
+	<div style="background-color:grey; clear:both;"><center> &copy; B.G., Październik 2025 </center></div>
+</body>
+
+</html>
+

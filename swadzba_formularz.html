@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="pl-PL">
+<head> 
+	<title> FORMULARZ NA OCENE </title>
+	<meta charset="UTF-8"/>
+</head>
+<body bgcolor="gray">
+	<div style="float:left; background-color:white; width:20%; height:1100px; ">
+		<hr />
+		<h3> <center> MENU PORUSZANIA </h3> </center>
+		<hr />
+			<a href="index.html"> <center> STRONA GŁÓWNA </center> </a> <br />
+			<a href="kolory.html"> <center> KOLORY </center> </a> <br />
+			<a href="nauczyciele.html"> <center> NAUCZYCIELE </center> </a> <br />
+			<a href="zdjecia.html"> <center> ZDJĘCIA </center> </a> <br />
+			<a href="swadzba_tabele.html"> <center> TABELA </center> </a> <br />
+			<a href="swadzba_tabela.html"> <center> TABELA NA OCENE </center> </a> <br />
+			<a href="swadzba_listy.html"> <center> LISTY </center> </a> <br />
+			<a href="swadzba_lista.html"> <center> LISTY NA OCENE </center> </a> <br />
+			<a href="swadzba_formularz.html"> <center> FORMULARZE </center> </a> <br />
+			<a href="mapy_odsyłaczy.html"> <center> MAPY ODSYŁACZY </center> </a> <br />
+
+		<br />
+		<hr />
+		<h3> <center> STREFA JĘZYKA "CSS" </h3> </center>
+		<br />
+		<hr />
+		<h3> <center> STREFA MULTIMEDIALNA </h3> </center>
+			<a href="audio_video.html"> <center> AUDIO & VIDEO </center> </a> <br />
+		<hr />
+		<br />
+		<h3> <center> STREFA DOKUMENTÓW </h3> </center>
+			<a href="doc/lista.docx"> <center> WORD - LISTA GRUPY </center> </a> <br />
+			<a href="doc/lista.xlsx"> <center> EXCEL - LISTA GRUPY </center> </a> <br />
+		<hr />
+		<br />
+		<h3> <center> STREFA LINKÓW </h3> </center>
+		<a href="https://www.google.com" target="new">
+			<img src="foty/google_logo.png" width="100px" /></a>
+		<a href="https://www.tsi-pai.cba.pl" target="new">
+			<img src="foty/informatyk_logo.png" width="100px" /></a>
+	</div>
+	<div style="float:right; width:70%;">
+	<h4> TREŚĆ STRONY </h4>
+	</div>
+	<div>
+<fieldset>
+<legend> ADRES </legend>
+<input type="radio" /> firmowy
+<input type="radio" /> prywatny
+<p> Nazwa / Nazwisko i Imię <input type="text" id="pole" value="Poligraf / Kowalski Jan" size="50" /> </p>
+<p> Ulica i Numer Budynku <input type="text" id="pole2" size="50" /> </p>
+<p> Kod Pocztowy <input type="text" name="kod" pattern="[0-9]{2}-[0-9]{3}" value="40-671" /> </p>
+<p> Miejscowość <input type="text" id="miejsc" value="Katowice" /> </p>
+<p> Telefon <input type="text" id="tel" value="+48 601 601 601" />
+<p> E-mail <input type="email" value="info@insert.com" />
+</fieldset>
+<fieldset>
+<legend color="green"> WYSYŁKA </legend>
+<p> Przesyłka (ekon/prioryt/eksp) <select name="przesylka" size="1">
+<option value="Ekonomiczna" /> EKONOMICZNA
+<option value="Priorytetowa" /> PRIORYTETOWA
+<option value="Ekspresowa" /> EKSPRESOWA
+</select> </p>
+<p> Waga (g) <input type="text" value="1000" />
+<p> Gabaryt <select name="gabaryt" size="4">
+<option value="S (28x8x64 cm)" /> S (28x8x64 cm)
+<option value="M (38x19x64 cm)" /> M (38x19x64 cm)
+<option value="L (41x38x64 cm)" /> L (41x38x64 cm)
+<option value="XL (60x60x70 cm)" /> XL (60x60x70 cm)
+</select>
+<p> Wartość <input type="text" value="0,00" /> zł 
+<p> Nr. Rachunku <br /> <input type="text" value="60 1050 1214 1000 0033 6688 5522" size="50" /> </p>
+<p> Data Wysyłki <input type="date" value="2023-10-28" /> </p> 
+<p> <input type="checkbox" /> Z - Żądanie zwrotu/odesłania
+<p> <input type="checkbox" /> P - Polecony
+<p> <input type="checkbox" /> O - Potwierdzenie odbioru
+<p> <input type="checkbox" /> Z - Zadeklarowane wartości
+<p> UWAGI: <br /> <textarea cols="50" rows="6"> </textarea>
+<p> <button  type="button" name="WYSLIJ" value="WYŚLIJ" onclick="alert('Wysłano!')"> WYŚLIJ </button>
+<p> <button  type="button" name="ANULUJ" value="ANULUJ" onclick="alert('Anulowano!')"> ANULUJ </button>
+</div>
+<div style="background-color:grey; clear:both;"><center> &copy; B.G., Październik 2025 </center></div>
+</body>
+
+</html>
+
