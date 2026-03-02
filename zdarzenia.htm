@@ -1,8 +1,9 @@
+
 <!DOCTYPE html>
 
 <html lang="pl-PL">
 <head> 
-	<title> CANVAS </title>
+	<title> ZDARZENIA </title>
 	<meta charset="UTF-8"/>
 </head>
 <body>
@@ -21,6 +22,8 @@
 			<a href="mapy_odsylaczy.html">MAPY ODSYŁACZY</a> <br />
 			<a href="formularz.html">FORMULARZ</a> <br />
 			<a href="zdarzenia.html">ZDARZENIA</a> <br />
+
+
 		<br />
 		<hr />
 		<h3> <center> STREFA JĘZYKA "CSS" </h3> </center>
@@ -42,24 +45,28 @@
 			<img src="foty/informatyk_logo.png" width="100px" /></a>
 	</div>
 	<div style="float:right; width:70%;">
-<canvas id="moja_kanwa" width="300" height="200" style="border:1px solid blue;">BRAK OBSŁUGI CANVAS </canvas>
+	<h2>Zdarzenie onfocus oraz onblur</h2>
+<br />
+	<p>Po "wejściu" do pola input, funkcja ustawia kolor tła na żółty. </p>
+	<p>Po opuszczeniu pola input, funkcja ustawia kolor tła na czerwony. </p>
+<br />
+	Wpisz swoje imie i nazwisko:
+	<input type="text" id="myInput" onfocus="focusFunction()" onblur="blurFunction()">
 <script>
-	var x = document.getElementById("moja_kanwa");
-	var xtx = x.getContext('2d');
-	xtx.moveTo(0,0);
-	xtx.lineTo(300,200);
-	xtx.strokeStyle = "red";
-	xtx.stroke();
-	
-	var k = document.getElementById("moja_kanwa")
-	var kxt = k.getContext('2d');
-	kxt.fillStyle = "green"
-	kxt.fillRect(50,50,70,70);
-	kxt.strokeStyle = "purple";
-	kxt.strokeRect(40,40,90,90);
+function focusFunction() {
+	document.getElementById("myInput").style.background = "yellow";
+}
+function blurFunction() {
+	document.getElementById("myInput").style.background = "red";
+}
 </script>
+<br />
+<hr />
+<br />
+
 	</div>
 	<div style="background-color:grey; clear:both;"><center> &copy; B.G., Październik 2025 </center></div>
 </body>
 
 </html>
+
