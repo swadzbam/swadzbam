@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="pl-PL">
+<head> 
+	<title> PSEUDO ELEMENTY </title>
+	<meta charset="UTF-8"/>
+	<style type="text/css">
+			#element1::first-line {
+		background-color: yellow;
+		text-decoration: underline;
+		font-family: ravie;
+		}
+		
+		#element2::first-letter {
+		background-color: aqua;
+		color: red;
+		font-size: 100pt;
+		border: 2px solid blue;
+		font-family: ariel;
+		}
+		
+		#element {
+		border: 1px solid red;
+		padding: 10px;
+		}
+		
+		#element::before {
+		content: '^_^';
+		background-color: green;
+		color: white;
+		border-radius: 50%;
+		border: 1px solid blue;
+		font-size: 100%;
+		}
+		
+		#element::after {
+		content: 'DAMY RADE TO ZROBIĆ';
+		background-color: green;
+		border: 1px solid blue;
+		}
+		
+		.jeden::marker {
+		color: red;
+		}
+		
+		*::selection {
+		background-color: aqua;
+		color: pink;
+		}
+		
+</style></head>
+<body>
+	<div style="float:left; background-color:white; width:20%; height:1100px; ">
+		<hr />
+		<h3> <center> MENU PORUSZANIA </h3> </center>
+		<hr />
+			<a href="index.html">STRONA GŁÓWNA</a> <br />
+			<a href="kolory.html">KOLORY</a> <br />
+			<a href="nauczyciele.html">NAUCZYCIELE</a> <br />
+			<a href="zdjecia.html">ZDJĘCIA</a> <br />
+			<a href="tabele.html">TABELA</a> <br />
+			<a href="swadzba_tabela.html">TABELA NA OCENĘ</a> <br />
+			<a href="swadzba_listy.html">LISTY</a> <br />
+			<a href="swadzba_lista.html">LISTY NA OCENĘ</a> <br />
+			<a href="mapy_odsylaczy.html">MAPY ODSYŁACZY</a> <br />
+			<a href="formularz.html">FORMULARZ</a> <br />
+			<a href="zdarzenia.html">ZDARZENIA</a> <br />
+		<br />
+		<hr />
+		<h3> <center> STREFA JĘZYKA "CSS" </h3> </center>
+		<a href="wlasciwosci_css.html"> <center> WŁAŚCIWOŚCI CSS </center> </a>
+		<br />
+		<hr />
+		<h3> <center> STREFA MULTIMEDIALNA </h3> </center>
+			<a href="audio_video.html"> <center> AUDIO & VIDEO </center> </a> <br />
+		<hr />
+		<br />
+		<h3> <center> STREFA DOKUMENTÓW </h3> </center>
+			<a href="doc/lista.docx"> <center> WORD - LISTA GRUPY </center> </a> <br />
+			<a href="doc/lista.xlsx"> <center> EXCEL - LISTA GRUPY </center> </a> <br />
+		<hr />
+		<br />
+		<h3> <center> STREFA LINKÓW </h3> </center>
+		<a href="https://www.google.com" target="new">
+			<img src="foty/google_logo.png" width="100px" /></a>
+		<a href="https://www.tsi-pai.cba.pl" target="new">
+			<img src="foty/informatyk_logo.png" width="100px" /></a>
+	</div>
+			
+			
+		<div style="float:right; width:70%;">
+			<p id="element1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+			exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+	<hr />
+			<p id="element2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+			exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+	<hr />
+			<p id="element2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+			exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+	<hr />
+			<div>
+			<h2 id="element"> ZDAĆ DO TRZECIEJ KLASY </h2>
+			<h3 id="element"> ZDAĆ MATURE </h3>
+			<h3 id="element"> ZDAĆ EGZAMIN ZAWODOWY </h3>
+			</div>
+			<hr />
+				<ul type="circle">
+					<li class="jeden">A zresztą i tak nas nie słyszą</li>
+					<li class="jeden">Z jadalni idzie sie tu prawie dziesięć minut przez te wszystkie korytarze</li>
+					<li class="jeden">- Co to za dziwny odgłos?! - Spytała nagle Łucja</li>
+				</ul>
+			
+		
+
+
+
+
+</body></html>
